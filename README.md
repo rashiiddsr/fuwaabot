@@ -24,10 +24,10 @@
   <a href="https://github.com/rashiiddsr/fuwaabot#donate">Donate</a>
 
 <p align='center'>
-   <a href="https://twitter.com/rashiiddsr"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/twitter.png?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://instagram.com/rashiiddsr"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/instagram.jpg?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://www.facebook.com/rashiiddsr"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/facebook.png?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://wa.me/6281274388234?text=hello"><img height="30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBc_3WgZjWOtqdKZQbdkxUl5A31GZ_YC35zQ&usqp=CAU"></a>
+   <a href="https://twitter.com/rashiiddsr"><img height="30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-hkRnllr-qJ3TXaFT1xn9Lqhu6xbaaSkNw&usqp=CAU"></a>&nbsp;&nbsp;
+   <a href="https://instagram.com/rashiiddsr"><img height="30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVz2ZoK45-x8wjNrzy_8hBNmDe4yDtTVaSQ&usqp=CAU"></a>&nbsp;&nbsp;
+   <a href="https://www.facebook.com/rashiiddsr"><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png"></a>&nbsp;&nbsp;
+   <a href="https://wa.me/6281274388234?text=hello"><img height="30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBc_3WgZjWOtqdKZQbdkxUl5A31GZ_YC35zQ&usqp=CAU"></a>&nbsp;&nbsp;
 </P>
 </p>
 </div>
@@ -48,7 +48,7 @@
 ## Bugs and Tester
 * Jika kamu menemukan bug jangan lupa buka Issues
 * Info Lebih Lanjut, Chat [owner-fuwaa](https://wa.me/6285174388234)
-* Kamu bisa testing fitur Fuwaa-Bot [disini](https://wa.me/628?text=.menu)
+* Kamu bisa testing fitur Fuwaa-Bot [disini](https://wa.me/628127668234?text=.menu)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
@@ -114,8 +114,8 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 
 # Thanks to
 <a href="https://github.com/adiwajshing"><img src="https://github.com/adiwajshing.png?size=100" width="100" height="100"></a> | 
-----|----
-[Adiwajshing](https://github.com/adiwajshing) | 
+----|
+[Adiwajshing](https://github.com/adiwajshing) |
 Owner of Baileys | 
 
 
