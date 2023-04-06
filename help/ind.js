@@ -151,6 +151,7 @@ exports.miscMenu = (prefix) => {
     return `
     🔍 *MISC AND INFO*
 ├ ${prefix}google text
+├ ${prefix}chatai text
 └──────`
 }
 
