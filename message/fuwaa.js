@@ -8,6 +8,9 @@ const moment = require("moment-timezone");
 const { exec, spawn } = require("child_process");
 const axios = require('axios')
 const google = require('google-it');
+const { Configuration, OpenAIApi } = require("openai");
+const openai = new OpenAIApi(new Configuration({ apiKey: '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'}))
+
 
 //Library
 const { color, bgcolor } = require("../lib/color");
@@ -461,6 +464,17 @@ module.exports = async(fuwaa, msg, m, ind, setting) => {
                 })
             break
             //Misc
+            case prefix+'chatai': case prefix+'ai': case prefix+'openai':
+                if (!q) return reply(ind.wrongFormat(prefix))
+                openai.createCompletion({ model: "text-davinci-003", max_tokens: 2000, prompt: q})
+                .then(data=> reply(data.data.choices[0].text))
+                .catch((err) => {
+                    for (let x of ownerNumber) {
+                        sendMess(x, `${command.split(prefix)[1]} Error: \n\n` + err)
+                    }
+                    reply(ind.err())
+                })
+            break
             //Convert and Media
             case prefix+'toimg': case prefix+'stickertoimg': case prefix+'stoimg': case prefix+'stikertoimg': 
 				if (isQuotedSticker) {
@@ -484,7 +498,7 @@ module.exports = async(fuwaa, msg, m, ind, setting) => {
             //Downloader
             default:
             if (isCmd && fuwaa.mode == 'public') {
-                reply(ind.cmdNotFound(command, prefix)
+                reply(ind.cmdNotFound(command, prefix))
             }
             break
         }
